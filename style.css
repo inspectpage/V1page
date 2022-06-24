@@ -2,12 +2,15 @@ body{
     margin: 0px;
 }
 
+header{
+    background-color: #1F2937;
+    height: 50vh;
+    padding: 32px;
+}
+
 .head-container{
     display: flex;
-    background-color: #1F2937;
     justify-content: space-evenly;
-    height: 50vh;
-    
 }
 
 .logo-container{
@@ -24,4 +27,41 @@ body{
     font-size: 18px;
     gap: 16px;
     font-weight:bold;
+}
+
+.name-container #awesome{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.name-container #subtext{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+}
+button{
+    font-weight: bolder;
+    padding: 5px 12px;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border:none;
+    outline:none;
+    margin-top: 24px;
+}
+
+.main-head-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 388px;
+}
+
+.main-head-container .name-container{
+    width: 350px
+}
+.main-head-container img{
+    width: 300px;
+    height: auto;
 }
