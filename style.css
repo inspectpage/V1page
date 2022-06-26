@@ -4,7 +4,7 @@ body{
 
 header{
     background-color: #1F2937;
-    height: 50vh;
+    height: 60vh;
     padding: 32px;
 }
 
@@ -33,13 +33,16 @@ header{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    flex-shrink: 0;
 }
 
 .name-container #subtext{
     color: #E5E7EB;
     font-size: 18px;
     font-weight: bolder;
+    flex-shrink:0;
 }
+
 button{
     font-weight: bolder;
     padding: 5px 12px;
@@ -59,9 +62,83 @@ button{
 }
 
 .main-head-container .name-container{
-    width: 350px
+    flex: 0.2 0 100px;
+    margin-left: 16px;
 }
 .main-head-container img{
     width: 300px;
+    max-width: 500px;
     height: auto;
+    flex: 0.2 0 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+}
+
+.content-container .images{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+.content-container img{
+    width: 325px;
+    height: auto;
+    margin-top: 32px;
+    border-radius: 50px;
+    border: 4px solid #3882F6;
+}
+
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.quote p{
+    width: 500px;
+}
+
+
+.background{
+    background-color: #3882F6;
+    margin: 5em;
+    margin-left: 475px;
+    margin-right: 475px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB
+}
+  
+
+button, #border{
+    border: 2px solid red;
+
 }
